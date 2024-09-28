@@ -16,10 +16,11 @@ import './styles/styles.css'; // Global CSS
 
 function App() {
   return (
-    <Router basename='/IPO_Front'>
+    // <Router basename='/IPO_Front'>
+      <Router>
       {/* <Navbar /> */}
       <Routes>
-        <Route path="/IPO_Front" element={<Homepage1 />} />
+        <Route path="/" element={<Homepage1 />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/home2" element={<Home2 />} />
