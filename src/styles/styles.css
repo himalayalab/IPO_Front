@@ -1,0 +1,311 @@
+/* Container styles */
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000; /* Black background */
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+  }
+  
+  .links a {
+    color: #00ffcc; /* Cyber-futuristic color */
+    margin-left: 20px;
+    font-family: 'Orbitron', sans-serif; /* Cyber futuristic font */
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    color: #ff00ff; /* Hover effect */
+  }
+  
+  /* Title styles */
+  .title-container {
+    text-align: center;
+  }
+  
+  .homepage-title {
+    color: #00ffcc; /* Cyber-futuristic color */
+    font-size: 48px;
+    font-family: 'Orbitron', sans-serif; /* Cyber futuristic font */
+  }
+  
+  /* Button styles */
+.button-container {
+    margin-top: 20px;
+  }
+  
+  .homepage-button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #00ffcc;
+    border: none;
+    color: #000;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .homepage-button:hover {
+    background-color: #ff00ff;
+  }
+
+  .page-title {
+    color: #00ffcc; /* Cyber-futuristic color */
+    font-size: 36px;
+    font-family: 'Orbitron', sans-serif; /* Cyber futuristic font */
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #000; /* Black background for all pages */
+    color: #00ffcc; /* Default text color */
+  }
+
+  .user-info {
+    margin-bottom: 20px;
+  }
+  
+  .user-investments {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #333;
+    color: white;
+  }
+  
+  td {
+    background-color: #000000;
+  }
+  
+  .page-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    text-align: center; /* Center-align list items */
+  }
+  
+  li {
+    margin: 10px 0; /* Add some space between items */
+  }
+  
+  .chart-container {
+    display: flex;
+    justify-content: space-between; /* Adjusts spacing between charts */
+    flex-wrap: wrap; /* Allows charts to wrap to the next line on smaller screens */
+  }
+  
+  .chart-box {
+    flex: 1 1 calc(50% - 20px); /* Two charts per row with some margin */
+    margin: 10px; /* Adds some space around each chart */
+    text-align: center; /* Centers the content inside the chart box */
+    border: 2px solid #888; /* Border for the chart box */
+    padding: 10px; /* Padding inside the box */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    text-align: center; /* Center text */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between; /* Space between title and links */
+    align-items: center; /* Center items vertically */
+    padding: 15px 30px; /* Padding for the navbar */
+    background-color: #1a1a1a; /* Dark background for a sleek look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+  }
+  
+  .navbar-title {
+    font-size: 28px; /* Larger title font size */
+    color: #00ffcc; /* Neon teal color for futuristic vibe */
+    text-shadow: 0 0 5px rgba(0, 255, 204, 0.8); /* Glow effect */
+  }
+  
+  .navbar-links {
+    display: flex; /* Horizontal layout for links */
+    gap: 15px; /* Space between buttons */
+  }
+  
+  .navbar-button {
+    padding: 12px 20px; /* Button padding */
+    background-color: transparent; /* Transparent background */
+    border: 2px solid #00ffcc; /* Neon border */
+    color: #00ffcc; /* Button text color */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+  }
+  
+  .navbar-button:hover {
+    background-color: #00ffcc; /* Change background on hover */
+    color: #1a1a1a; /* Change text color on hover */
+  }
+  
+  main {
+    margin-left: 250px; /* Leave space for the navbar */
+    padding: 20px; /* Padding for the main content */
+  }
+
+  .search-bar {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure the container takes full height */
+    padding: 20px;
+    text-align: center; /* Center text inside */
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-field {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #00ffcc; /* Green */
+    color: rgb(3, 3, 3);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #00ffcc;
+  }
+  
+  /* Style for paragraph tags */
+.futuristic-paragraph {
+    font-size: 16px; /* Adjust font size */
+    color: #00ffcc; /* Neon teal color */
+    text-shadow: 
+      0 0 5px rgba(0, 255, 204, 0.7), /* Glow effect */
+      0 0 10px rgba(0, 255, 204, 0.5),
+      0 0 15px rgba(0, 255, 204, 0.3);
+    line-height: 1.6; /* Increase line height for readability */
+    margin: 15px 0; /* Space around the paragraph */
+    font-family: 'Courier New', Courier, monospace; /* Futuristic font family */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 10px; /* Padding for the paragraph */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .home2-container {
+    display: flex; /* Use Flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Full height to center vertically */
+  }
+  
+  .button-container {
+    display: flex; /* Use Flexbox for buttons */
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center buttons */
+  }
+  
+  .homepage-button {
+    margin: 10px 0; /* Space between buttons */
+    padding: 10px 20px; /* Button padding */
+    font-size: 16px; /* Font size for buttons */
+    color: rgb(2, 2, 2); /* Text color */
+    background-color: #00ffcc; /* Button background color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s; /* Transition for hover effect */
+  }
+  
+  .homepage-button:hover {
+    background-color: #009f99; /* Darker shade on hover */
+  }
+
+  .calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #00ffcc; /* Futuristic teal color */
+  }
+  
+  .page-title {
+    font-size: 24px;
+    color: #00ffcc; /* Title color */
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px rgba(0, 255, 204, 0.7), 0 0 10px rgba(0, 255, 204, 0.5);
+  }
+  
+  .rbc-calendar {
+    background-color: #000000; /* Dark background for calendar */
+    color: white; /* Calendar text color */
+  }
+  
+  .rbc-event {
+    background-color: #00ffcc !important; /* Event background color */
+    color: black !important; /* Event text color */
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
