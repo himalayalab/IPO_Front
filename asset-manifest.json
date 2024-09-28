@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/IPO_Front/static/css/main.b8432a93.css",
+    "main.js": "/IPO_Front/static/js/main.d690a9e9.js",
+    "static/js/453.f1d4321d.chunk.js": "/IPO_Front/static/js/453.f1d4321d.chunk.js",
+    "static/media/7.png": "/IPO_Front/static/media/7.76579724fd1fc464b0f7.png",
+    "index.html": "/IPO_Front/index.html",
+    "main.b8432a93.css.map": "/IPO_Front/static/css/main.b8432a93.css.map",
+    "main.d690a9e9.js.map": "/IPO_Front/static/js/main.d690a9e9.js.map",
+    "453.f1d4321d.chunk.js.map": "/IPO_Front/static/js/453.f1d4321d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8432a93.css",
+    "static/js/main.d690a9e9.js"
+  ]
+}
