@@ -19,7 +19,7 @@ function App() {
     <Router basename='/IPO_Front'>
       {/* <Navbar /> */}
       <Routes>
-        <Route path="/" element={<Homepage1 />} />
+        <Route path="/IPO_Front" element={<Homepage1 />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/home2" element={<Home2 />} />
