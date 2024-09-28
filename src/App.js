@@ -16,7 +16,7 @@ import './styles/styles.css'; // Global CSS
 
 function App() {
   return (
-    <Router>
+    <Router basename='/IPO_Front'>
       {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Homepage1 />} />
